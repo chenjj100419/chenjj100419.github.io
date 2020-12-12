@@ -1,0 +1,30 @@
+h1 {
+    margin-top: 90px;
+    text-align: center;
+}
+
+.sound {
+    display: block;
+    text-align: center;
+    margin: auto auto auto auto;
+    margin-top: 100px;
+}
+
+.donation {
+    text-align: center;
+    width: 100%
+}
+
+.donation img {
+    text-align: center;
+    padding-left: 1%;
+    padding-right: 1%;
+    width: 28%;
+    height: 40%;
+}
+
+/*
+.donation img[ alt = "AliPay" ] {
+    margin-left: 2%;
+}
+*/

@@ -3,11 +3,13 @@
     <head>
         <meta lang="zh">
         <meta charset="utf-8">
-        <title>chenjj100419的神奇晓网站————捐赠</title>
+        <title>chenjj100419的神奇晓网站————登录</title>
         <link rel="icon" href="/imgs/logo.png">
         <link rel="stylesheet" href="/css/bar.css" type="text/css"/>
-        <link rel="stylesheet" href="/pages/donation/style.css" type="text/css"/>
+        <link rel="stylesheet" href="/pages/admin/style.css" type="text/css"/>
         <link href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <script src="../../js/forge-sha256.js"></script>
+        <script src="../../js/login.js"></script>
     </head>
     <body>
         <div class="top_bar">
@@ -22,18 +24,14 @@
                 <li><a href="/pages/servers">服务器</a></li>
                 <li><a href="/pages/q_a">Q&A</a></li>
                 <li><a href="https://afdian.net/@chenjj100419" target="_blank">赞助/捐赠榜</a></li>
-                <li><a href="/pages/admin/" id="admin">后台</a></li>
+                <li><a href="/pages/admin/login.html" id="admin">后台</a></li>
             </ul>
         </div>
-        <h1>大哥!捐赠一点吧!</h1>
-        <div class="sound">
-            <h2>音乐欣赏</h2>
-            <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="https://music.163.com/outchain/player?type=2&id=537211323&auto=1&height=66"></iframe>
-        </div>
-        <div class="donation">
-            <img src="/pages/donation/AliPay.jpg" alt="AliPay">
-            <img src="/pages/donation/WeChatPay.png" alt="WeChatPay">
-            <img src="/pages/donation/afdian-chenjj100419.jfif" alt="Afdian">
+        <div class="box">
+            <h1>Login</h1>
+            <input type="text" name="" placeholder="Username" id="username">
+            <input type="password" name="" placeholder="Password" id="password">
+            <input type="submit" value="Login" onclick="obtain()">
         </div>
     </body>
 </html>

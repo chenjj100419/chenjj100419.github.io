@@ -1,0 +1,47 @@
+html, body{
+	padding: 0;
+	margin: 0;
+	font-family: "Microsoft YaHei", "微软雅黑", DotumChe, Helvetica, Tahoma, Arial, STXihei, "华文细黑", SimSun, "宋体", Heiti, "黑体", sans-serif;
+}
+
+ul li{
+	list-style-type: none;
+}
+
+footer{
+	width: 100%;
+	bottom: 0;
+	color: white;
+}
+
+footer .footer-2{
+	height: 80px;
+	line-height: 72px;
+	font-size: 16px;
+}
+
+footer .container{
+	width: 100%;
+	height: 200px;
+	background-color: #333333;
+}
+
+footer .link-img{
+	width: 78px;
+	height: 50px;
+}
+
+footer .container div{
+	margin-left: 200px;
+}
+
+footer .container div div{
+	margin: 50px 100px auto 100px;
+	float: left;
+}
+
+.margin-center{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
